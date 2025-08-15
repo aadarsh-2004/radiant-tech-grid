@@ -9,12 +9,27 @@ const ExperienceSection = () => {
       location: "Remote",
       description: "Delivered customized web solutions for small to mid-sized businesses, focusing on performance, usability, and responsive design.",
       achievements: [
-        "Developed 7+ complete web applications",
+        "Developed 4+ complete web applications",
         "Increased client conversion rates by 40%",
         "Implemented modern tech stacks for scalable solutions",
-        "Maintained 100% client satisfaction rate"
+        "Maintained 99% client satisfaction rate"
       ],
-      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Firebase", "Cloudinary"]
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Firebase", "AWS", "Cloudinary"]
+    },
+    {
+      title: "Founder & Full-Stack Developer — QuoteKaro SaaS",
+      company: "Self-initiated Startup Project",
+      period: "May 2024 – Present",
+      location: "Udaipur, Rajasthan (Remote)",
+      description: "Building a SaaS platform for photography and event studios to create and share branded quotations with clients. Responsible for end-to-end development, architecture, and feature delivery.",
+      achievements: [
+        "Designed and developed the entire platform architecture using MERN stack",
+        "Implemented theme-based PDF template engine with auto-filled estimates",
+        "Integrated Firebase Auth, MongoDB backend, and credit-based estimate system",
+        "Built admin dashboard for analytics, firm management, and usage tracking",
+        "Planned multi-country expansion strategy starting with India"
+      ],
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS",  "Firebase", "AWS"]
     }
   ];
 

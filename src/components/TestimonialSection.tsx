@@ -3,28 +3,36 @@ import { Star, Quote } from "lucide-react";
 const TestimonialSection = () => {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      company: "TechStart Solutions",
-      role: "CEO",
-      content: "Aadarsh delivered an exceptional e-commerce platform that exceeded our expectations. His attention to detail and technical expertise is remarkable.",
-      rating: 5,
-      image: "🚀"
-    },
-    {
-      name: "Michael Chen",
-      company: "Digital Marketing Pro",
-      role: "Marketing Director", 
-      content: "Working with Aadarsh was a game-changer for our business. He created a stunning website that increased our conversion rate by 45%.",
-      rating: 5,
-      image: "💼"
-    },
-    {
-      name: "Emily Rodriguez",
-      company: "Creative Studio",
+      name: "Ravi Bhawsar",
+      company: "Sabgumo.com",
       role: "Founder",
-      content: "Professional, reliable, and incredibly talented. Aadarsh transformed our vision into a beautiful, functional web application.",
+      content: "Aadarsh transformed our vision for Sabgumo.com into a fast, user-friendly platform. His technical skills and clear communication made the process seamless.",
       rating: 5,
-      image: "🎨"
+      image: "🌐"
+    },
+    {
+      name: "Nikhil",
+      company: "PetJunction",
+      role: "Owner",
+      content: "From concept to launch, Aadarsh handled everything for PetJunction with professionalism. The website looks stunning and our customers love the smooth experience.",
+      rating: 5,
+      image: "🐾"
+    },
+    {
+      name: "Dimple Bhawsar",
+      company: "Udaipur Animal Feed (UAF)",
+      role: "Co-Founder",
+      content: "We needed an online presence that matched our brand's reliability, and Aadarsh delivered exactly that. UAF's new site has helped us reach more customers than ever.",
+      rating: 5,
+      image: "🐄"
+    },
+    {
+      name: "Mr. Anurag",
+      company: "Mushroom Juniors",
+      role: "Founder",
+      content: "Aadarsh created a modern, easy-to-manage site for Mushroom Juniors that has boosted our brand visibility. His attention to detail and dedication were outstanding.",
+      rating: 5,
+      image: "🍄"
     }
   ];
 
@@ -36,11 +44,11 @@ const TestimonialSection = () => {
             Client <span className="text-gradient">Testimonials</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            What my clients say about working with me
+            Real feedback from clients I've had the privilege to work with
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
@@ -82,15 +90,15 @@ const TestimonialSection = () => {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 max-w-3xl mx-auto">
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">100%</div>
+            <div className="text-3xl font-bold text-primary mb-2">99%</div>
             <div className="text-sm text-muted-foreground">Client Satisfaction</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">15+</div>
+            <div className="text-3xl font-bold text-primary mb-2">5+</div>
             <div className="text-sm text-muted-foreground">Projects Delivered</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">7+</div>
+            <div className="text-3xl font-bold text-primary mb-2">5+</div>
             <div className="text-sm text-muted-foreground">Happy Clients</div>
           </div>
           <div className="text-center">

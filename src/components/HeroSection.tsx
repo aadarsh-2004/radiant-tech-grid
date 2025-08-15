@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden grid-bg-animated">
+    <section className="relative top-10 min-h-screen flex items-center justify-center overflow-hidden grid-bg-animated">
       {/* Grid overlay with gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background/95 to-background/90"></div>
       
@@ -23,16 +23,19 @@ const HeroSection = () => {
             Full Stack Developer
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-            I've been working as a full stack web developer for 2+ years, 
+            I've been working as a full stack web developer for 1+ years, 
             creating innovative solutions and bringing ideas to life through code.
           </p>
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8">
+            <a href="#contact">
+            <Button  size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8">
               <Mail className="mr-2 h-5 w-5" />
               Get In Touch
             </Button>
+            </a>
+            
             <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10 px-8">
               <Download className="mr-2 h-5 w-5" />
               Download CV
@@ -56,11 +59,11 @@ const HeroSection = () => {
         {/* Stats Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-12">
           <div className="glass rounded-xl p-6 hover-grow">
-            <div className="text-2xl font-bold text-primary mb-2">2+</div>
+            <div className="text-2xl font-bold text-primary mb-2">1+</div>
             <div className="text-sm text-muted-foreground">Years Experience</div>
           </div>
           <div className="glass rounded-xl p-6 hover-grow">
-            <div className="text-2xl font-bold text-primary mb-2">15+</div>
+            <div className="text-2xl font-bold text-primary mb-2">7+</div>
             <div className="text-sm text-muted-foreground">Projects Done</div>
           </div>
           <div className="glass rounded-xl p-6 hover-grow">
@@ -68,7 +71,7 @@ const HeroSection = () => {
             <div className="text-sm text-muted-foreground">Technologies</div>
           </div>
           <div className="glass rounded-xl p-6 hover-grow">
-            <div className="text-2xl font-bold text-primary mb-2">100%</div>
+            <div className="text-2xl font-bold text-primary mb-2">99%</div>
             <div className="text-sm text-muted-foreground">Client Satisfaction</div>
           </div>
         </div>

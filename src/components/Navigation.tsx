@@ -51,10 +51,11 @@ const Navigation = () => {
 
           {/* CTA Button & Mobile Menu */}
           <div className="flex items-center gap-4">
+            <a href="#contact">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground hidden sm:flex">
               Hire Me
             </Button>
-            
+            </a>
             {/* Mobile Menu Button */}
             <button
               className="md:hidden w-10 h-10 flex items-center justify-center"
@@ -80,9 +81,11 @@ const Navigation = () => {
                 </a>
               ))}
               <div className="px-4 pt-2">
+                <a href="#contact">
                 <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
                   Hire Me
                 </Button>
+                </a>
               </div>
             </div>
           </div>

@@ -27,7 +27,7 @@ const AboutSection = () => {
             
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
               I'm a passionate full stack developer currently pursuing my B.Tech in Computer Science 
-              Engineering. With over 2 years of hands-on experience, I specialize in creating modern, 
+              Engineering. With over 1+ years of hands-on experience, I specialize in creating modern, 
               scalable web applications that solve real-world problems.
             </p>
             
@@ -59,7 +59,7 @@ const AboutSection = () => {
                   <Briefcase className="h-5 w-5 text-primary" />
                   <span className="font-semibold">Experience</span>
                 </div>
-                <p className="text-muted-foreground">2+ Years Development</p>
+                <p className="text-muted-foreground">1+ Years Development</p>
               </div>
               
               <div className="bg-card border border-border rounded-xl p-4 hover-grow">
