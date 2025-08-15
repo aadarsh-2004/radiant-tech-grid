@@ -35,11 +35,12 @@ const HeroSection = () => {
               Get In Touch
             </Button>
             </a>
-            
+             <a href="https://drive.google.com/file/d/1HoVWgZdLOqRXL0g_WFzu-ML8sype8DJs/view?usp=drive_link">
             <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10 px-8">
               <Download className="mr-2 h-5 w-5" />
               Download CV
             </Button>
+               </a>
           </div>
           
           {/* Social Links */}
